@@ -1,0 +1,87 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px;
+    align-items: center;
+    width: 500px;
+    border-radius: 5px;
+}
+.header{
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.heading{
+    color: blueviolet;
+    font-size: 35px;
+    font-weight: 500;
+}
+.underline{
+width: 90px;
+height: 6px;
+background-color: blueviolet;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+.inputs{
+    gap: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    margin-bottom: 15px;
+    background-color: rgb(226, 221, 221);
+    padding: 18px;
+    border-radius: 15px;
+    width: 320px;
+    align-items: center;
+    
+}
+input{
+    border: none;
+    background-color: rgb(226, 221, 221);
+    font-size: 19px;
+    padding-left: 9px;
+}
+.input input:focus {
+     /* removes border when i click to enter text */
+    outline: none ; 
+    border: none ; 
+  }
+
+  .forget{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .forget p span a{
+    color: blueviolet;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+  }
+  .submit{
+    background-color: blueviolet;
+    border: none;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    font-size: 17px;
+}
+.gray{
+    background-color: rgb(226, 221, 221);
+    color: #676767;
+}
+
